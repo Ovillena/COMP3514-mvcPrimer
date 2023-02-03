@@ -1,0 +1,31 @@
+﻿@using System.Diagnostics
+@{
+    Process[] processes = ViewBag.Stuff as Process[];
+    //come as array of objects. but want to come as array of processes. Cast means force it.
+    
+}
+
+<h1>
+    @ViewBag.Title
+</h1>
+
+<table>
+
+@foreach(var item in processes) // or can just use "item in ViewBag.Stuff"
+            {
+                <tr id="@item.Id">
+                    <td>
+                        <a
+                            asp-controller="Process"
+                            asp-action="Display"
+                            asp-route-id="@item.Id">
+                            @item.ProcessName
+                        </a>
+                    </td>
+                    <td>
+                        @item.ProcessName
+                    </td>
+
+                </tr>
+            }
+</table>

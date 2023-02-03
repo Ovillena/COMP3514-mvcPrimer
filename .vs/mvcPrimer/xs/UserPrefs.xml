@@ -1,0 +1,56 @@
+﻿<Properties StartupConfiguration="{688F1BA7-9A5E-43EA-9290-8A5C342B1EFF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ProcessController.cs">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" Line="13" Column="7" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Program.cs" />
+      <File FileName="Views/Home/Happy.cshtml" />
+      <File FileName="Controllers/ProcessController.cs" Line="6" Column="19" />
+      <File FileName="Views/Process/Index.cshtml" />
+      <File FileName="Views/Process/Display.cshtml" />
+      <File FileName="Views/Process/Index2.cshtml" />
+      <File FileName="Views/Process/Display2.cshtml" />
+      <File FileName="Views/Shared/_ReusableView.cshtml" />
+      <File FileName="Views/Home/Privacy.cshtml" />
+      <File FileName="Views/_ViewImports.cshtml" />
+      <File FileName="Models/Person.cs" Line="12" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="mvcPrimer" expanded="True">
+            <Node name="mvcPrimer" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ProcessController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Process" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True">
+                      <Node name="css" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.mvcPrimer PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

@@ -1,0 +1,22 @@
+﻿@using System.Diagnostics
+@model System.Diagnostics.Process
+
+
+<h1>
+    @ViewBag.Title
+</h1>
+
+<table border="1">
+
+    
+        <tr>
+            <td>
+                @Model.Id
+            </td>
+           <td>
+               @Model.ProcessName
+           </td>
+            <td>@Model.HandleCount</td>
+        </tr>
+    
+</table>

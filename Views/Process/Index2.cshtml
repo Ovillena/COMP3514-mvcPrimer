@@ -1,0 +1,28 @@
+﻿@using System.Diagnostics
+@model System.Diagnostics.Process[]
+@{
+    
+}
+
+<h1>
+    @ViewBag.Title
+</h1>
+
+<table>
+
+@foreach(var item in Model) // or can just use "item in ViewBag.Stuff"
+            {
+                <tr id="@item.Id">
+                    <td>
+                        <a
+                            asp-controller="Process"
+                            asp-action="Display2"
+                            asp-route-id="@item.Id">
+                            @item.ProcessName
+                        </a>
+                    </td>
+                    
+
+                </tr>
+            }
+</table>
